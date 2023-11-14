@@ -1,0 +1,539 @@
+:root {
+    --main-color: #ECE2DA;
+    --second-color: #3B8E46;
+    --third-color: #D2776A; 
+    --button-color: #E0B9B4;
+    --second-color-button: #C02E44;
+    --alternative-button-color: #DC9F96;
+  }
+    
+  body {
+    background: #ECE2DA; 
+    margin : 0;
+  }
+  
+  .navbar {
+    background-color: #FFFFFF;
+    width: 100%; 
+    height: 80px;
+}
+
+  
+  .home-paragraph {
+    width: 497px;
+    height: 120px;
+    top: 1141px;
+    left: 472px;
+    font-family: "Syne", sans-serif; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  
+  #page {
+    min-height: initial; 
+  }
+  
+  
+  footer {
+    width: 1440px;
+    height: 60px;
+    top: 1934px;
+    padding: 20px 0px 21px 0px;
+    background: #FFFFFF;
+    text-align: center;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: -80px;
+  }
+
+.footer-image {
+  background-color: #ffffff; 
+}
+
+.contact-image {
+  background-color: #ece2d4; 
+}
+
+/* Navigation */
+  
+.mon-bouton-personnalise {
+    width: 236px;
+    height: 80px;
+    background: #DC9F96; 
+    line-height: 80px; 
+}
+
+  #masthead .ast-container,
+.site-header-focus-item + .ast-breadcrumbs-wrapper {
+  max-width: 100%;
+  padding-left: 35px;
+  padding-right: 0; 
+}
+
+
+#menu-item-299 > a:nth-child(1) {
+  margin: 0 auto; 
+  color: #ffffff !important; 
+}
+
+/* Annule survol lien admin */
+ul#ast-hf-menu-1 li.menu-item a:not(#menu-item-299 > a:nth-child(1)) {
+  color: initial !important;
+  background: initial !important;
+  text-decoration: initial !important;
+}
+
+#menu-item-56.menu-item,
+#menu-item-299.menu-item {
+  margin-left: 50px; 
+}
+
+#menu-item-56.menu-item {
+  margin-right: 50px; 
+}
+
+/* Page d'acceuil */
+
+/* Styles pour l'image de fond */
+.wp-image-748 {
+  position: relative;
+}
+
+/* Styles pour l'image de superposition */
+.wp-image-749 {
+  position: absolute; 
+  top: 28px; 
+  left: 0;
+  z-index: 2;
+}
+
+/* Page Nous rencontrer */
+
+.team-title {
+  position: absolute;
+  left: 50%;
+  margin-top: 60px; 
+}
+
+
+/* Styles pour l'image sous le formulaire */
+.wp-image-82 {
+  position: absolute;
+  z-index: -2;
+  top: -250px; 
+  left: 283px; 
+}
+
+textarea {
+  resize: none;
+}
+
+/* Centre le formulaire */
+div.eael-contact-form-7-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centre le bouton "Envoyer" */
+input.wpcf7-submit[value="Envoyer"] {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Page Commander */
+
+/* Formulaire commander */
+
+.separateur {
+  height: 490px; 
+  background-color: #FFFFFF; 
+  border: 1px solid #FFFFFF; 
+  margin: 0 30px; /* Espacement entre la ligne et les colonnes */
+  position: relative;
+}
+ 
+/* Bouton "Envoyer" */
+input.wpcf7-submit[value="Commander"] {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.deux-colonnes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colonne {
+  flex: 1;
+  margin: 10px;
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text-center [type="submit"] {
+  display: inline-block;
+  background-color: #E0B9B4; 
+  width: 198px; 
+  height: 55px; 
+  border-radius: 5px;
+  top: 1164px;
+  left: 631px;
+}
+
+
+h2.white-text,
+label.white-text {
+  color: white;
+}
+
+#nom, #prenom, #adresse, #code_postal, #ville, #your-email {
+  width: 383px;
+  height: 71px;
+  border-radius: 7px;
+  color: white; 
+}
+
+
+.maLigne {
+    width: 828px;
+    height: 1px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 142px;
+    transform: rotate(0deg);    
+    }
+
+.wpcf7-response-output {
+      display: none !important;
+    }
+  
+
+
+.custom-square {
+  background: #FFFFFF;
+  width: 51px;
+  height: 56px;
+  top: 522px;
+  left: 292px;
+  box-shadow: 0px 4px 14px 0px #0000000A;
+  border-top-left-radius: 5px; 
+  border-bottom-left-radius: 5px;
+}
+
+
+/* Styles pour le "0" */
+.custom-text {
+  width: 5%; 
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 56px; 
+  letter-spacing: 0em;
+  text-align: center; 
+  color: #000000;
+  position: relative;
+  top: 0;
+  left: 20px;
+}
+
+/* Styles pour le nouvel élément à côté du carré */
+.custom-element {
+  background: #DC9F96;
+  width: 31px;
+  height: 56px;
+  box-shadow: 0px 4px 14px 0px #0000000A;
+  transform: rotate(-180deg); 
+  margin-left: 51px; 
+  margin-top: -56px;
+  border-top-left-radius: 5px; 
+  border-bottom-left-radius: 5px; 
+}
+
+/* Ajout de la ligne blanche horizontale au milieu de l'élément */
+.custom-element::before {
+  content: "";
+  width: 100%; 
+  height: 1px; 
+  background: #FFFFFF;
+  position: absolute;
+  top: 50%; 
+  left: 0;
+  transform: translateY(-50%); /* Ajuste la position verticale pour le centrage */
+}
+
+
+.custom-plus {
+  width: 10px;
+  height: 24px;
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+  top: 30px; 
+  left: 11px; 
+}
+
+.custom-minus {
+  width: 10px;
+  height: 24px;
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 30px; 
+  left: 12px;
+}
+
+
+.custom-button {
+  width: 100px;
+  height: 56px;
+  top: 0;
+  left: 90px;
+  padding: 9px 0px 10px 0px; 
+  border-radius: 5px;
+  background: #E0B9B4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.custom-button span {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF; 
+  text-align: center;
+}
+
+
+.centered-link {
+  text-align: center;
+  display: block; /* Pour centrer le lien horizontalement */
+}
+
+
+/* Styles pour le responsive téléphone et tablette */
+
+@media (max-width: 906px) {
+  body {
+    background-color: #ECE2D4;
+  }
+}
+
+/* Responsive page d'accueil */
+
+@media (max-width: 768px) {
+  p {
+      font-size: 18px; 
+      text-align: center; 
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+      font-size: 8px; 
+      text-align: center; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .elementor-element-cb7f824 { 
+    text-align: center; 
+    position: relative;
+    top: 110px; 
+  }
+
+  img.attachment-full {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  p {
+    font-size: 16px; 
+    position: relative;
+    top: 20px; 
+  }
+
+  /* Ajoute de la marge à la section suivante pour éviter le chevauchement */
+  .elementor-element-aa61e5f { 
+    margin-top: 75px; 
+  }
+  
+}
+/* images superposées */
+@media (max-width: 767px) {
+  .wp-image-749 {
+    transform: scaleY(1); 
+  }
+}
+
+/* Responsive page Nous rencontrer */
+
+/* image sous formulaire */
+@media (max-width: 1024px) {
+  .wp-image-82 {
+    position: relative;
+    z-index: -2;
+    top: -252px;
+    left: -182px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .wp-image-82 {
+    position: relative;
+    z-index: -2;
+    left: -138px;
+    top: -80px;
+  }
+}
+
+/* Responsive page Commander */
+
+@media (max-width: 768px) {
+  .deux-colonnes {
+    flex-direction: column;
+  }
+  #nom, #prenom, #adresse, #code_postal, #ville, #your-email {
+    width: 100%; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .colonne {
+    flex: 1; 
+  }
+  .text-center [type="submit"] {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 768px) {
+  .separateur {
+    display: none; 
+  }
+
+}
+
+@media (max-width: 768px) {
+  label {
+    font-size: 16px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .maLigne {
+      width: 100%; 
+      height: 1px;
+      background-color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      position: relative; 
+      top: 0; 
+      left: 0; 
+      transform: rotate(0deg); 
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .maLigne {
+    width: 100%; 
+    height: 1px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    position: relative;
+    top: 0;
+    left: -0; 
+    transform: rotate(0deg); 
+  }
+}
+
+@media (min-width: 752px) and (max-width: 851px) {
+  .deux-colonnes {
+    flex-direction: column;
+  }
+  #nom, #prenom, #adresse, #code_postal, #ville, #your-email {
+    width: 100%;
+  }
+  .separateur {
+    display: none; /* supprime l'espace div separateur */
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-button {
+    top: 30px; 
+    left: 160px; 
+    width: 80px; 
+    height: 56px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 827px) {
+  .custom-button {
+    width: 92px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 802px) {
+  .custom-button {
+    width: 80px; 
+    
+  }
+}
+
+/* Responsive Footer */
+
+@media screen and (max-width: 768px) {
+  footer {
+      text-align: center; 
+      padding: 10px 0; 
+      width: 100%; 
+      overflow: hidden; 
+  }
+  footer a {
+      display: block; 
+      margin: 0 auto; 
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  footer {
+    text-align: center; 
+  }
+
+  footer a {
+    margin-right: 500px; 
+  }
+}
+
