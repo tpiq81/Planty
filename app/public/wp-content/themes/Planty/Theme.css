@@ -127,7 +127,7 @@ ul#ast-hf-menu-1 li.menu-item a:not(#menu-item-299 > a:nth-child(1)) {
 .wp-image-82 {
   position: absolute;
   z-index: -2;
-  top: -250px; 
+  top: -230px; 
   left: 283px; 
 }
 
@@ -402,7 +402,7 @@ label.white-text {
   .wp-image-82 {
     position: relative;
     z-index: -2;
-    top: -252px;
+    top: -228px;
     left: -182px;
   }
 }
