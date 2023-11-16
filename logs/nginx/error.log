@@ -37,8 +37,11 @@
 2023/11/06 13:18:37 [error] 11196#12140: *67393 WSARecv() failed (10054: FormatMessage() error:(15100)) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /wp-content/themes/Planty/styles-custom.css?ver=4.3.0.1693408233 HTTP/1.0", upstream: "fastcgi://127.0.0.1:10009", host: "planty.local", referrer: "http://planty.local/nous-rencontrer/?elementor-preview=46&ver=1699273111"
 2023/11/07 11:41:47 [alert] 14300#15540: OpenEvent("ngx_master_10292") failed (2: FormatMessage() error:(15100))
 2023/11/10 16:27:09 [alert] 7576#6676: OpenEvent("ngx_master_10928") failed (2: FormatMessage() error:(15100))
+HEAD
 2023/11/14 14:53:08 [alert] 5252#10812: OpenEvent("ngx_master_12180") failed (2: FormatMessage() error:(15100))
 2023/11/14 14:54:29 [alert] 2496#12528: OpenEvent("ngx_master_5344") failed (2: FormatMessage() error:(15100))
 2023/11/14 14:54:34 [alert] 9116#3312: the event "ngx_master_9116" was not signaled for 5s
 2023/11/14 14:55:34 [alert] 5428#1460: OpenEvent("ngx_master_9304") failed (2: FormatMessage() error:(15100))
 2023/11/14 14:59:47 [alert] 14228#14232: OpenEvent("ngx_master_9532") failed (2: FormatMessage() error:(15100))
+
+ c0656226538ceeeb8d394bd162eaf5e8cb6cb331
