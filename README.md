@@ -1,2 +1,2 @@
 # Planty
-https://github.com/tpiq81/Planty
+https://tpiq81.github.io/Planty 
